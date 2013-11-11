@@ -1,9 +1,10 @@
 window.TwitterWall =
-  Models: {}
+  Models: { }
   Collections: {}
   Views: {}
-  Routers: {}
+  Routers: { }
   initialize: -> alert 'Hello from Backbone!'
 
 $(document).ready ->
   TwitterWall.initialize()
+  router.start();

@@ -1,0 +1,17 @@
+<h1>StaticPages#home</h1>
+<ul>
+	<% @tweets.each do |tweet| %>
+		<li><%= tweet.text %></li>	
+	<% end %>
+</ul>
+<div id="app"></div>
+<p>Find me in app/views/static_pages/home.html.erb</p>
+
+
+<script type="text/template" id="tweetTemplate">
+	 <h1>From Template</h1>	
+	 text: <%%= text %><br>
+	 timestamp: <%%= timestamp %><br>
+	 uniq_name: <%%= uniq_name %><br>
+	 disp_name: <%%= disp_name %><br><br>
+</script>

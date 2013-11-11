@@ -11,7 +11,7 @@ gem 'bootstrap-will_paginate', '0.0.9'
 #gem 'zurb-foundation', '~>4.0.0'
 gem 'devise'
 gem 'tweetstream'
-gem 'twitter'
+gem 'twitter', '~>5.0.0.rc.1'
 gem 'backbone-on-rails'
 
 group :development, :test do
@@ -48,7 +48,7 @@ end
 
 gem 'sass-rails', '4.0.0'
 gem 'uglifier', '2.1.1'
-gem 'coffee-rails', '4.0.0'
+gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails', '2.2.1'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
